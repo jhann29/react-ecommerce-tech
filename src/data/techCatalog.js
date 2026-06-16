@@ -1,0 +1,138 @@
+/**
+ * Catálogo local de tecnología (nombres, precios COP, descripciones).
+ * Las imágenes se obtienen desde la API externa escuelajs.co
+ */
+export const TECH_PRODUCTS_CATALOG = [
+  {
+    id: 1,
+    title: 'iPhone 17 Pro Max 256GB',
+    price: 7899000,
+    category: 'iPhone',
+    description:
+      'iPhone 17 Pro Max con chip A19 Pro, pantalla Super Retina XDR de 6.9", 256GB de almacenamiento, cámara Pro de 48MP y titanio.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 2,
+    title: 'iPhone 17 Pro 256GB',
+    price: 6799000,
+    category: 'iPhone',
+    description:
+      'iPhone 17 Pro con pantalla de 6.3", chip A19 Pro, 256GB, sistema de cámaras Pro y diseño en titanio.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 3,
+    title: 'iPhone 17 128GB',
+    price: 4599000,
+    category: 'iPhone',
+    description:
+      'iPhone 17 con pantalla de 6.1", chip A19, 128GB y gran autonomía para el día a día.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 4,
+    title: 'iPhone 16 Pro Max 512GB',
+    price: 7299000,
+    category: 'iPhone',
+    description:
+      'iPhone 16 Pro Max con 512GB, pantalla grande de 6.9" y cámaras avanzadas para foto y video profesional.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1556656793-08538906a9f8?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 5,
+    title: 'MacBook Pro 14" M4 Pro 512GB',
+    price: 11499000,
+    category: 'Mac',
+    description:
+      'MacBook Pro 14 pulgadas con chip M4 Pro, 512GB SSD, pantalla Liquid Retina XDR y hasta 18 horas de batería.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 6,
+    title: 'MacBook Air 13" M3 256GB',
+    price: 5899000,
+    category: 'Mac',
+    description:
+      'MacBook Air ultradelgado con chip M3, 256GB, pantalla Retina de 13.6" y diseño silencioso sin ventilador.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 7,
+    title: 'Mac Studio M4 Max',
+    price: 12999000,
+    category: 'Mac',
+    description:
+      'Mac Studio con chip M4 Max, potencia de estación de trabajo para desarrollo, edición y flujos profesionales.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 8,
+    title: 'iPad Pro 13" M4 256GB',
+    price: 6499000,
+    category: 'iPad',
+    description:
+      'iPad Pro de 13 pulgadas con chip M4, pantalla Ultra Retina XDR y compatibilidad con Apple Pencil Pro.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 9,
+    title: 'iPad Air 11" 128GB',
+    price: 3299000,
+    category: 'iPad',
+    description:
+      'iPad Air ligero con pantalla de 11", chip M2, 128GB y excelente rendimiento para trabajo y estudio.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1561154464-82e9adf32764?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 10,
+    title: 'AirPods Pro 2',
+    price: 1099000,
+    category: 'Audio',
+    description:
+      'AirPods Pro con cancelación activa de ruido, audio adaptativo, estuche MagSafe y resistencia al agua IP54.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 11,
+    title: 'Apple Watch Ultra 2',
+    price: 3899000,
+    category: 'Watch',
+    description:
+      'Apple Watch Ultra 2 con caja de titanio, GPS dual, pantalla Always-On Retina y autonomía extendida.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+  {
+    id: 12,
+    title: 'Magic Keyboard para iPad Pro',
+    price: 1599000,
+    category: 'Accesorios',
+    description:
+      'Magic Keyboard con teclas retroiluminadas, trackpad integrado y soporte ajustable para iPad Pro.',
+    fallbackImages: [
+      'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&h=600&fit=crop&auto=format',
+    ],
+  },
+];

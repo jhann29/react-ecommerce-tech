@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.min-vh-main {
+  min-height: calc(100vh - 120px);
+}
+
+.product-card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.cart-widget-badge {
+  font-size: 0.75rem;
+}
