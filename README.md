@@ -2,31 +2,6 @@
 
 Prueba técnica React (#11): catálogo, detalle, carrito y checkout.
 
-## Requisitos cumplidos
-
-- React con hooks (`useState`, `useEffect`, `useContext`)
-- `CartContext` para el carrito global
-- `react-bootstrap` + Font Awesome
-- Llamadas a API REST externa (`api.escuelajs.co`) + catálogo tech local (nombres, COP, imágenes)
-- 12 componentes según consigna
-
-## Componentes
-
-| Componente | Descripción |
-|------------|-------------|
-| NavBar | Logo, link Home, CartWidget |
-| CartWidget | Ícono carrito + cantidad |
-| ItemListContainer | Fetch productos + saludo |
-| ItemList | Lista de Item |
-| Item | Card producto |
-| ItemDetailContainer | Fetch por ID |
-| ItemDetail | Detalle producto |
-| ItemQuantitySelector | +/- cantidad |
-| AddItemButton | Agregar al carrito |
-| CartContext | Estado global carrito |
-| Brief | Resumen compra |
-| Checkout | Finalizar compra |
-
 ## Instalación
 
 ```bash
